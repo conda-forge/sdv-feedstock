@@ -1,5 +1,5 @@
 {% set name = "sdv" %}
-{% set version = "0.13.1" %}
+{% set version = "0.14.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sdv-{{ version }}.tar.gz
-  sha256: c0a0dbc4a64e5f60cabd123a8c19b3f99594f5a0911de83e08d172b810222c93
+  sha256: a62714b73a7e14b95ffbda0920a3a5a6fe891a17d8611380af5f9ca1ff8fc234
 
 build:
   number: 0
@@ -21,15 +21,15 @@ requirements:
     - pytest-runner >=2.11.1
     - python >=3.6,<3.10
   run:
-    - copulas >=0.6.0,<0.7
-    - ctgan >=0.5.0,<0.6
+    - copulas >=0.6.1,<0.7
+    - ctgan >=0.5.1,<0.6
     - deepecho >=0.3.0.post1,<0.4
     - faker >=3.0.0,<10
     - python-graphviz >=0.13.2,<1
     - numpy >=1.18.0,<2
     - pandas >=1.1.3,<2
     - python >=3.6,<3.10
-    - rdt >=0.6.1,<0.7
+    - rdt >=0.6.2,<0.7
     - sdmetrics >=0.4.1,<0.5
     - tqdm >=4.15,<5
 
