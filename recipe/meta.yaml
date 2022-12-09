@@ -1,5 +1,5 @@
 {% set name = "sdv" %}
-{% set version = "0.17.1" %}
+{% set version = "0.17.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sdv-{{ version }}.tar.gz
-  sha256: 61b159622a6eaef4b3c5c1f0e95e0ed1eb207b3d5a0ccb1043d73c3d22811104
+  sha256: 7542cfe6db945c70508d295c4328f39b517df19c8e3945e680092b050b657cf7
 
 build:
   number: 0
@@ -30,7 +30,7 @@ requirements:
     - pandas >=1.1.3,<2
     - python >=3.6,<3.10
     - rdt >=1.2.0,<1.3
-    - sdmetrics >=0.7.0,<0.8
+    - sdmetrics >=0.8.0,<0.9
     - tqdm >=4.15,<5
     - cloudpickle >=2.1.0,<3.0
 
