@@ -3,7 +3,7 @@ About sdv
 
 Home: https://github.com/sdv-dev/SDV
 
-Package license: MIT
+Package license: BUSL-1.1
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sdv-feedstock/blob/main/LICENSE.txt)
 
