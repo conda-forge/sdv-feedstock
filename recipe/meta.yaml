@@ -1,5 +1,5 @@
 {% set name = "sdv" %}
-{% set version = "0.18.0" %}
+{% set version = "1.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sdv-{{ version }}.tar.gz
-  sha256: e7316fe53e914abab965527ef82ddc1e5ce2a29e903d89cefb4be0cfd6f0bc40
+  sha256: 74ef5baafa7c0e39d073a7e066c92af5be0573ffa27a92158d242fb7143fe2a5
 
 build:
   number: 0
@@ -21,8 +21,11 @@ requirements:
     - pytest-runner >=2.11.1
     - python >=3.7,<3.11
   run:
+    - boto3 >=1.15.0,<2
+    - botocore >=1.18,<2
+    - cloudpickle >=2.1.0,<3.0
     - copulas >=0.8.0,<0.9
-    - ctgan >=0.7.0,<0.8
+    - ctgan >=0.7.1,<0.8
     - deepecho >=0.4.0,<0.5
     - faker >=10.0.0,<15
     - python-graphviz >=0.13.2,<1
@@ -30,9 +33,8 @@ requirements:
     - pandas >=1.1.3,<2
     - python >=3.7,<3.11
     - rdt >=1.3.0,<2
-    - sdmetrics >=0.9.0,<0.10
+    - sdmetrics >=0.9.1,<0.10
     - tqdm >=4.15,<5
-    - cloudpickle >=2.1.0,<3.0
 
 test:
   imports:
@@ -51,7 +53,6 @@ about:
 extra:
   recipe-maintainers:
     - amontanez24
-    - csala
     - fealho
-    - katxiao
+    - frances-h
     - pvk-developer
