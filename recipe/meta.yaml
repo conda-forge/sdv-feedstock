@@ -21,8 +21,8 @@ requirements:
     - pytest-runner >=2.11.1
     - python >=3.7,<3.11
   run:
-    - boto3>=1.15.0,<2
-    - botocore>=1.18,<2
+    - boto3 >=1.15.0,<2
+    - botocore >=1.18,<2
     - cloudpickle >=2.1.0,<3.0
     - copulas >=0.8.0,<0.9
     - ctgan >=0.7.1,<0.8
