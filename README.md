@@ -144,8 +144,7 @@ Feedstock Maintainers
 =====================
 
 * [@amontanez24](https://github.com/amontanez24/)
-* [@csala](https://github.com/csala/)
 * [@fealho](https://github.com/fealho/)
-* [@katxiao](https://github.com/katxiao/)
+* [@frances-h](https://github.com/frances-h/)
 * [@pvk-developer](https://github.com/pvk-developer/)
 
