@@ -1,5 +1,5 @@
 {% set name = "sdv" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sdv-{{ version }}.tar.gz
-  sha256: 60752a6db799a2816a1dbdfc4869fb3fa27920361f750b34b68f76890e447cc7
+  sha256: 8da426abf2d8594aaead04ed24032f2f63eff48653bd8f0b5ede18b8a09659e3
 
 build:
   number: 0
@@ -29,7 +29,7 @@ requirements:
     - deepecho >=0.4.2,<0.5
     - faker >=10.0.0,<15
     - python-graphviz >=0.13.2,<1
-    - numpy >=1.20.0,<1.25.0
+    - numpy >=1.20.0,<2
     - pandas >=1.1.3
     - python >=3.8,<3.12
     - rdt >=1.7.0,<2
