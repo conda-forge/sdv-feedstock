@@ -27,7 +27,6 @@ requirements:
     - copulas >=0.9.0,<0.10
     - ctgan >=0.7.4,<0.8
     - deepecho >=0.4.2,<0.5
-    - faker >=10.0.0,<15
     - python-graphviz >=0.13.2,<1
     - numpy >=1.20.0,<2
     - pandas >=1.1.3
