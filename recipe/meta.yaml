@@ -1,5 +1,5 @@
 {% set name = "sdv" %}
-{% set version = "1.7.0" %}
+{% set version = "1.8.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sdv-{{ version }}.tar.gz
-  sha256: fa3429ba0ab8d6fc28dc5f25614215967eff68d04252f00c7059526450a7df1d
+  sha256: 1027303465d7c921f1e6dfc4596db785c39b1e6796e69167a8026dac0f434ddc
 
 build:
   number: 0
@@ -25,14 +25,14 @@ requirements:
     - botocore >=1.18,<2
     - cloudpickle >=2.1.0,<3.0
     - copulas >=0.9.0,<0.10
-    - ctgan >=0.7.4,<0.8
+    - ctgan >=0.8.0,<0.9
     - deepecho >=0.5.0,<0.6
     - python-graphviz >=0.13.2,<1
     - numpy >=1.20.0,<2
     - pandas >=1.1.3
     - python >=3.8,<3.12
     - rdt >=1.9.0,<2
-    - sdmetrics >=0.12.1,<0.13
+    - sdmetrics >=0.13.0,<0.14
     - tqdm >=4.15,<5
 
 test:
