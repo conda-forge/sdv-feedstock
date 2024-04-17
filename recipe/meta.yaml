@@ -1,5 +1,5 @@
 {% set name = "sdv" %}
-{% set version = "1.11.0" %}
+{% set version = "1.12.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sdv-{{ version }}.tar.gz
-  sha256: dd9d8360f69d609762ac02ce32f8d5ccd7fd805994a030dfdbf6c7d8d0973ff6
+  sha256: a79443521d8cb28c056ff147791bba91712cdf573404cacd93c077fce98e4f29
 
 build:
   number: 0
@@ -19,21 +19,21 @@ requirements:
   host:
     - pip
     - pytest-runner >=2.11.1
-    - python >=3.8,<3.12
+    - python >=3.8,<3.13
   run:
-    - boto3 >=1.15.0,<2
-    - botocore >=1.18,<2
+    - boto3 >=1.28.0,<2
+    - botocore >=1.31,<2
     - cloudpickle >=2.1.0,<3.0
-    - copulas >=0.9.0,<0.10
-    - ctgan >=0.9.0,<0.10
-    - deepecho >=0.5.0,<0.6
-    - python-graphviz >=0.13.2,<1
-    - numpy >=1.20.0,<2
+    - copulas >=0.11.0
+    - ctgan >=0.10.0
+    - deepecho >=0.6.0
+    - python-graphviz >=0.13.2
+    - numpy >=1.20.0
     - pandas >=1.1.3
-    - python >=3.8,<3.12
-    - rdt >=1.10.0,<2
-    - sdmetrics >=0.13.0,<0.14
-    - tqdm >=4.15,<5
+    - python >=3.8,<3.13
+    - rdt >=1.11.0
+    - sdmetrics >=0.14.0
+    - tqdm >=4.29
 
 test:
   imports:
