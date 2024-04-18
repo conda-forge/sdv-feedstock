@@ -11,7 +11,7 @@ source:
   sha256: a79443521d8cb28c056ff147791bba91712cdf573404cacd93c077fce98e4f29
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -23,7 +23,7 @@ requirements:
   run:
     - boto3 >=1.28.0,<2
     - botocore >=1.31,<2
-    - cloudpickle >=2.1.0,<3.0
+    - cloudpickle >=2.1.0
     - copulas >=0.11.0
     - ctgan >=0.10.0
     - deepecho >=0.6.0
