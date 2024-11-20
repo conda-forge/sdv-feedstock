@@ -1,5 +1,5 @@
 {% set name = "sdv" %}
-{% set version = "1.17.1" %}
+{% set version = "1.17.2" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sdv-{{ version }}.tar.gz
-  sha256: aa2fb2146f8e2193c465d98592e1e16700d82fe16ad3c4b23d157affe9d595cd
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sdv-{{ version }}.tar.gz
+  sha256: c844e0a1728b5bfc18586db07e834051463bc3f610cbcc40d24c3f3b01b66525
 
 build:
   number: 0
@@ -25,17 +25,17 @@ requirements:
     - boto3 >=1.28.0,<2
     - botocore >=1.31,<2
     - cloudpickle >=2.1.0
-    - copulas >=0.11.0
-    - ctgan >=0.10.0
-    - deepecho >=0.6.0
+    - copulas >=0.12.0
+    - ctgan >=0.10.2
+    - deepecho >=0.6.1
     - python-graphviz >=0.13.2
     - numpy >=1.21.0,<2
     - pandas >=1.4.0
     - platformdirs >=4.0
     - python >=3.8,<3.13
     - pyyaml >=6.0.1
-    - rdt >=1.12.3
-    - sdmetrics >=0.16.0
+    - rdt >=1.13.1
+    - sdmetrics >=0.17.0
     - tqdm >=4.29
 
 test:
