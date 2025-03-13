@@ -25,17 +25,17 @@ requirements:
     - boto3 >=1.28.0,<2
     - botocore >=1.31,<2
     - cloudpickle >=2.1.0
-    - copulas >=0.12.0
-    - ctgan >=0.10.2
-    - deepecho >=0.6.1
+    - copulas >=0.12.1
+    - ctgan >=0.11.0
+    - deepecho >=0.7.0
     - python-graphviz >=0.13.2
     - numpy >=1.21.0,<2
     - pandas >=1.4.0
     - platformdirs >=4.0
-    - python >={{ python_min }},<3.13
+    - python >={{ python_min }},<3.14
     - pyyaml >=6.0.1
-    - rdt >=1.13.2
-    - sdmetrics >=0.17.0
+    - rdt >=1.14.0
+    - sdmetrics >=0.19.0
     - tqdm >=4.29
 
 test:
