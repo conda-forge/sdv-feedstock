@@ -34,7 +34,7 @@ requirements:
     - platformdirs >=4.0
     - python >={{ python_min }},<3.14
     - pyyaml >=6.0.1
-    - rdt >=1.16.0
+    - rdt >=1.17.0
     - sdmetrics >=0.20.1
     - tqdm >=4.29
 
