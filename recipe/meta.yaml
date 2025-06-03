@@ -1,5 +1,5 @@
 {% set name = "sdv" %}
-{% set version = "1.21.0" %}
+{% set version = "1.22.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sdv-{{ version }}.tar.gz
-  sha256: d3f970e8671fea11ddbabb701398351effc637095f768524d0769acaea412e1a
+  sha256: e9fd93982429fce84281cfdcbeb6101177af6de289718bb8898e3761f2ce932c
 
 build:
   number: 0
