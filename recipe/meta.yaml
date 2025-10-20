@@ -1,5 +1,5 @@
 {% set name = "sdv" %}
-{% set version = "1.27.0" %}
+{% set version = "1.28.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sdv-{{ version }}.tar.gz
-  sha256: 2265bbffdaa00a731178027390173dd594cee42d7b3605bf9126ef7b940752df
+  sha256: 3015a27e91a5ac4f354f394b7a4c53e34d95d225145393ffcd6ee1f43df9855b
 
 build:
   number: 0
@@ -34,7 +34,7 @@ requirements:
     - platformdirs >=4.0
     - python >={{ python_min }},<3.14
     - pyyaml >=6.0.1
-    - rdt >=1.17.0
+    - rdt >=1.18.2
     - sdmetrics >=0.21.0
     - tqdm >=4.29
 
