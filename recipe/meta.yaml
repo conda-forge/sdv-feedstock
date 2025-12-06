@@ -26,7 +26,7 @@ requirements:
     - botocore >=1.31,<2
     - cloudpickle >=2.1.0
     - copulas >=0.12.1
-    - ctgan >=0.11.0
+    - ctgan >=0.11.1
     - deepecho >=0.7.0
     - python-graphviz >=0.13.2
     - numpy >=1.22.2,<2
