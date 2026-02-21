@@ -150,4 +150,5 @@ Feedstock Maintainers
 * [@gsheni](https://github.com/gsheni/)
 * [@pvk-developer](https://github.com/pvk-developer/)
 * [@rwedge](https://github.com/rwedge/)
+* [@sarahmish](https://github.com/sarahmish/)
 
