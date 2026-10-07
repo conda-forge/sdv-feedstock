@@ -1,5 +1,5 @@
 {% set name = "sdv" %}
-{% set version = "1.38.4" %}
+{% set version = "1.38.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/sdv-{{ version }}.tar.gz
-  sha256: 12bf17b4c6fe2cfcb9ee9ec8810730768add36f1c7cd884ac254c68a6953f1aa
+  sha256: 9087aa89b5c643e1847f85b720db52f02fefaf6d8c8555900ec0754f5d310b85
 
 build:
   number: 0
@@ -34,7 +34,7 @@ requirements:
     - platformdirs >=4.0
     - python >={{ python_min }},<3.15
     - pyyaml >=6.0.1
-    - rdt >=1.18.2
+    - rdt >=1.18.2,<2
     - sdmetrics >=0.32.0
     - tqdm >=4.29
 
