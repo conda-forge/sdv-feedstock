@@ -41,7 +41,7 @@ requirements:
 test:
   imports:
     - sdv
-    - sdv.constraints
+    - sdv.cag
   requires:
     - pip
     - python {{ python_min }}
