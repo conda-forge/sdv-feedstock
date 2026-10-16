@@ -1,5 +1,5 @@
 {% set name = "sdv" %}
-{% set version = "1.38.5" %}
+{% set version = "2.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/sdv-{{ version }}.tar.gz
-  sha256: 9087aa89b5c643e1847f85b720db52f02fefaf6d8c8555900ec0754f5d310b85
+  sha256: cb7ed2c1e1ef5612ed68d6f8b90d546d9c8963659cd5072b4f3a79c30d496812
 
 build:
   number: 0
@@ -34,14 +34,14 @@ requirements:
     - platformdirs >=4.0
     - python >={{ python_min }},<3.15
     - pyyaml >=6.0.1
-    - rdt >=1.18.2,<2
+    - rdt >=2.0.0
     - sdmetrics >=0.32.0
     - tqdm >=4.29
 
 test:
   imports:
     - sdv
-    - sdv.constraints
+    - sdv.cag
   requires:
     - pip
     - python {{ python_min }}
