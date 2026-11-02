@@ -1,5 +1,5 @@
 {% set name = "sdv" %}
-{% set version = "2.0.0" %}
+{% set version = "2.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/sdv-{{ version }}.tar.gz
-  sha256: cb7ed2c1e1ef5612ed68d6f8b90d546d9c8963659cd5072b4f3a79c30d496812
+  sha256: 202fdc70630bb838d8a3686bc3bb4961ccbd6313024acdfb4ba40da0222c41ff
 
 build:
   number: 0
